@@ -1,0 +1,25 @@
+.stButton button {
+    background-color: #0072B2;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #000000;
+    transition-duration: 0.4s;
+}
+
+.stButton button:hover {
+    background-color: #00427C;
+    box-shadow: 1px 1px 3px #000000;
+}
+
+.stButton button:active {
+    background-color: #0072B2;
+    box-shadow: 0px 0px 1px #000000;
+    transform: translateY(2px);
+}
